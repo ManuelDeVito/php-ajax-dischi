@@ -2,11 +2,33 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <link rel="stylesheet" href="../dist/app.css.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+        <link rel="stylesheet" href="../dist/app.css">
+        <title>Dischi Ajax</title>
     </head>
     <body>
+        <div id="wrapper">
+            <header>
+                <h1>Dischi Ajax</h1>
+            </header>
+            <main>
+                <div class="contenitore">
+                    <div class="contenitore-card">
 
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card">
+                <img src="{{ poster }}" alt="">
+                <h6>{{ title }}</h6>
+                <p>{{ author }}</p>
+                <em>{{ genre }}</em>
+                <small>{{ year }}</small>
+            </div>
+        </script>
         <script src="../dist/app.js" charset="utf-8"></script>
     </body>
 </html>
