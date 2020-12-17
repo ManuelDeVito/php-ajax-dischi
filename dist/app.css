@@ -1,0 +1,15 @@
+.contenitore {
+  width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: red;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
