@@ -1,10 +1,13 @@
 header {
-    background-color: black;
+    background-color: $background-color;
+    text-align: center;
+
 
     h1 {
-        color: red;
-        font-size: 30px;
-        padding: 20px 0;
+        color: $color;
+        font-size: $dimensioni * 4;
+        padding: $dimensioni * 2 0;
+        text-transform: uppercase;
     }
 
 }

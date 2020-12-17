@@ -1,0 +1,45 @@
+main {
+    background-color: $color-grey;
+    padding: $dimensioni * 5 0;
+}
+
+.contenitore-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: $dimensioni * 25;
+    padding: $dimensioni;
+    background-color: $background-color;
+    color: $color-white;
+    margin: $dimensioni * 2;
+    text-align: center;
+
+    img {
+        max-width: 100%;
+    }
+
+    h6 {
+        font-size: $dimensioni * 2;
+        padding: $dimensioni - 5 0;
+    }
+
+    p {
+        font-size: 18px;
+        padding-bottom: $dimensioni - 5;
+
+    }
+
+    em {
+        font-size: 16px;
+        padding: $dimensioni - 5 0;
+    }
+
+    small {
+        display: block;
+        font-size: 14px;
+        padding: $dimensioni - 5 0;
+    }
+}
