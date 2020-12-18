@@ -1,6 +1,21 @@
 main {
     background-color: $color-grey;
+    min-height: calc(100vh - 50px);
     padding: $dimensioni * 5 0;
+}
+
+.filtri {
+    text-align: center;
+}
+
+#generi-filtri {
+    width: 200px;
+    color: red;
+    border: 3px solid black;
+    background-color: black;
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding: 5px;
 }
 
 .contenitore-card {

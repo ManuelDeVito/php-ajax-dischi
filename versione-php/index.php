@@ -1,4 +1,4 @@
-<?php include 'dischi.php' ?>
+<?php include '../dischi.php' ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
